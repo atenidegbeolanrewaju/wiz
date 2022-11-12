@@ -1,0 +1,64 @@
+.Home-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    margin: auto;
+    bottom: 0px;
+    top: 0;
+    height: 70%;
+}
+
+
+
+.Home-header {
+    display: inline-block;
+    justify-content: center; 
+    align-items: center; 
+    align-content: center;
+    padding: 10rem 1%;
+    /* margin: auto */
+    width: 50%;
+    height: 100%;
+    min-height: 65vh;
+    background-image: linear-gradient(to right,
+    white 50%,
+    /* rgba(172, 168, 168, 0),
+    rgba(87, 85, 85, 0), */
+    rgba(0,0,0,0) 100%
+    );
+    /* background-color: white; */
+    /* position: absolute; */
+
+
+}
+
+.community-info {
+    margin: 25px auto;
+    width: 50%;
+}
+
+.community-info h2 {
+    color:rgba(77,93,118,255);
+    padding: 5px 0;
+    font-size: 1.5rem;
+}
+
+.community-info Button {
+    color: white;
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+.community-info p {
+    color:rgba(77,93,118,255);
+    max-width: 500px;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 1.1rem;
+    
+}
+
