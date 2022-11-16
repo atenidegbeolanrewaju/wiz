@@ -17,10 +17,10 @@ const HomeD = () => {
         margin: '0 auto',
         bottom: '0px',
         top: '0',
-        height: '70%'
+        height: '60%'
     }
       return (
-        <div >
+        <div className='Home-container'>
             <div style={containerStyles}>
                 <ImageSlider slides={slides}>
                     <div className='Home-header'>
@@ -31,6 +31,19 @@ const HomeD = () => {
                         </div>
                     </div>
                 </ImageSlider>
+            </div>
+            <div className='about'>
+                <div className='about-content'>
+                    <div className='about-logo'>
+
+                    </div>
+                    <div className='about-learn'>
+
+                    </div>
+                    <div className='about_'>
+
+                    </div>
+                </div>
             </div>
         </div>
     )
